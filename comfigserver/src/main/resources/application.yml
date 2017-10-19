@@ -9,7 +9,7 @@ spring:
 #spring:
 #  application:
 #    name: MyApp1
-
+config-repo1 2. объясни по-человесечки пока не добавила в spring.factories org.springframework.cloud.bootstrap.BootstrapConfiguration =путь к CustomPropertySourceLocator, то этот конфигурационный файл отсутствовал в списке бинов у бутстрепа, это правильно? получается, что это только на стороне клиента
 endpoints:
   restart:
     enabled: true
