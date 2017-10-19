@@ -6,10 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="comfigserver" />
         <module name="demo_with_bootstrap" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="comfigserver" target="1.8" />
       <module name="demo" target="1.8" />
       <module name="demo_only_some_libs" target="1.8" />
       <module name="demo_with_bootstrap" target="1.8" />

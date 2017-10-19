@@ -1,0 +1,19 @@
+server:
+  port: 9900
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: file:///${user.home}/config-repo
+#spring:
+#  application:
+#    name: MyApp1
+
+endpoints:
+  restart:
+    enabled: true
+  shutdown:
+    enabled: true
+  health:
+    sensitive: false

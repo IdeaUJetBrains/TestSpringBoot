@@ -1,6 +1,21 @@
+server:
+  port: 9900
+endpoints:
+  restart:
+    enabled: true
+  shutdown:
+    enabled: true
+  health:
+    sensitive: false
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: file:///${user.home}/config-repo
 environments:
     dev:
-        url: http://localhost:8080
+        url: http://localhost:8082
         name: Developer Setup
     prod:
         url: http://localhost:8081

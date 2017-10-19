@@ -4,6 +4,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/demo_with_bootstrap/pom.xml" />
+        <option value="$PROJECT_DIR$/comfigserver/pom.xml" />
       </list>
     </option>
   </component>

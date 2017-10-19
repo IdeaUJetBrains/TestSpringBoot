@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/TestSpringBoot.iml" filepath="$PROJECT_DIR$/TestSpringBoot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/comfigserver/comfigserver.iml" filepath="$PROJECT_DIR$/comfigserver/comfigserver.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo_with_bootstrap/demo_with_bootstrap.iml" filepath="$PROJECT_DIR$/demo_with_bootstrap/demo_with_bootstrap.iml" />
     </modules>
   </component>
